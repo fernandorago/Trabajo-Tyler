@@ -36,16 +36,19 @@
   .service{
    display: inline;
    list-style: none;
+   letter-spacing: 8px;
    
   } 
   .service a{
     text-decoration: none;
     color: var(--color-letras);
+    font-size: small;
 
   }
  .service a:hover{
   color: var(--color-asterisco);
   font-size: large;
+  transition: 1s;
  }
   .talk{
     background-color: white;
@@ -71,11 +74,13 @@
     background-color: black;
     color: white;
     padding: 2%;
+    margin-top: 30px;
   }
   .lets{
     background-color: white;
     color: black;
     padding: 2%;
+    margin-top: 15px;
   }
   
   .skils{

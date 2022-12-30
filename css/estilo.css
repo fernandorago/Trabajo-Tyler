@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;  
+
+}
+:root {
+    --color-fondo: #cbcbcb;
+    --color-asterisco: #e2762e;
+    --color-letras: #252b33;
+    --color-subtitulo: #6c757d;
+  }
+  body{
+    width: 100%;
+   }
+  header{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1.5%;
+    margin-left: 5%;
+  }
+  .moxa{
+    display: flex;
+  }
+  .asteriscoheader{
+    font-size: 1.5cm;
+    text-align: center;
+    
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+  }
+  .service{
+   display: inline;
+   list-style: none;
+   
+  } 
+  .service a{
+    text-decoration: none;
+    color: var(--color-letras);
+
+  }
+ .service a:hover{
+  color: var(--color-asterisco);
+  font-size: large;
+ }
+  .talk{
+    background-color: white;
+    padding: 0% 3% 0% 3%;
+  }
+  
+  
+  
+  .hero{
+    display: flex;
+    padding: 7%;
+  }
+  .hi{
+    flex-grow: 1;
+  }
+  span{
+    color: var(--color-asterisco);
+  }
+  .imagen{
+    flex-grow: 1;
+  }
+  .got{
+    background-color: black;
+    color: white;
+    padding: 2%;
+  }
+  .lets{
+    background-color: white;
+    color: black;
+    padding: 2%;
+  }
+  
+  .skils{
+    display: inline-flex;
+    margin-top: 10px;
+    background-color: var(--color-letras);
+    color: white;
+    width: 1350px;
+    justify-content: space-around;
+    list-style: none;
+    height: 70px;
+    align-items: center;
+    
+    
+    
+  }
+  .bi-asterisk{
+    color: var(--color-asterisco);
+    font-size:20px;
+    margin: 35px;
+    
+  }
+  .foot{
+    position: relative;
+    transform: skewY(-4deg);
+  }
+  
+  
+ 
+ 
+  

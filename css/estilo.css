@@ -53,6 +53,7 @@
  .service a:hover{
   color: var(--color-asterisco);
   transition: var(--color-asterisco);
+  font-weight:bold;
  }
   .talk{
     background-color: white;

@@ -1,4 +1,5 @@
 # Trabajo-Tyler
+https://fernandorago.github.io/Trabajo-Tyler/
 Trabajo en HTML y CSS
 Mejoras de centrado y sesgado del pie de trabajo
-https://fernandorago.github.io/Trabajo-Tyler/
+Utilizacion de z-index para poner una img sobre otra

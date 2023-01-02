@@ -85,9 +85,8 @@
     display: flex;
     margin-left: 5%;
     padding: 2%;
-    margin-bottom: 10px;
     min-height: 300px;
-    margin-top: 0.5%;
+   
     
   }
   .hi{
@@ -96,7 +95,7 @@
     
   }
   .hi h1:hover{
-    color: var(--color-asterisco);
+  color: var(--color-asterisco);
   font-size: large;
   transition: 1s;
   
@@ -227,13 +226,17 @@
   }
 
   @media (max-width:900px){
-    .foot{
+    .skils{
+      height: 250px;
       flex-direction: column;
+      align-items: flex-start;
     }
   }
   @media (max-width:700px){
-    .foot ul{
+    .skils{
+      height: 250px;
       flex-direction: column;
+      align-items: flex-start;
     }
   }
   
